@@ -33,7 +33,7 @@ get("/dice/2/10") do
 end
 
 get("/dice/1/20") do
-  die = rand(1..20)
+  first_die = rand(1..20)
   sum = first_die
   
   @outcome = "You rolled a #{first_die} for a total sum of #{sum}"
